@@ -123,3 +123,18 @@ button:hover {
     line-height: 35px;
     margin-top: 24px;
 }
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2727270D;
+    margin: 86px auto;
+    padding: 86px;
+    border-radius: 10px;
+}
+.delevery{
+    text-align: center;
+    align-items: center;
+}
+.delevery h4{
+    margin-top: 24px;
+}

@@ -79,18 +79,24 @@ button:hover {
 }
 
 .featured {
-    padding: 100px 0;
+    margin: 130px auto;
+}
+
+.feature-container {
+    /* align-items: center;
+    text-align: center; */
 }
 
 .section-content {
     display: flex;
-    justify-content: space-between;
-    align-items: end;
+    justify-content: space-around;
+    align-items: center;
     gap: 20px;
+    margin: 50px auto;
 }
 
 .flower-img {
-    width: 400px;
+    width: 350px;
     border-radius: 300px 300px 0 0;
     padding: 30px 15px 0;
     height: 500px;
@@ -123,7 +129,8 @@ button:hover {
     line-height: 35px;
     margin-top: 24px;
 }
-.services-container{
+
+.services-container {
     display: flex;
     justify-content: space-around;
     background-color: #2727270D;
@@ -131,10 +138,93 @@ button:hover {
     padding: 86px;
     border-radius: 10px;
 }
-.delevery{
+
+.delevery {
     text-align: center;
     align-items: center;
 }
-.delevery h4{
+
+.delevery h4 {
     margin-top: 24px;
+}
+
+.hot-deal-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hot-deal {
+    background-color: #E554730D;
+}
+
+.hot-deal-container h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.off {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal-content {
+    text-align: center;
+}
+
+.hot-deal-content p {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.hot-deal {
+    padding: 100px;
+    margin: auto;
+}
+
+.instragram-img-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.instragram-container {
+    /* text-align: center;
+    margin: 128px auto; */
+}
+
+.instragram-content h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.img{
+    width: 242px;
+}
+
+.newsletter {
+    margin: 128px 0;
+}
+
+.newsletter-main {
+    background-image: url('../images/newsletter-bg.png');
+    padding: 122px 0;
+    background-repeat: no-repeat;
+}
+.newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+.newsletter form input{
+   flex-grow: 1;
+   border: none;
+   border-radius: 5px;
+   padding: 10px;
+   font-size: 20px;
+   outline: none;
 }
